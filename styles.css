@@ -1,5 +1,7 @@
 /* External CSS but with unused rules and heavy selectors */
+body { font-family: Arial, sans-serif; background:#fff; color:#333; }
 .header { padding: 0; margin: 0; }
-.content { max-width: 1200px; margin: 0 auto; }
-.section { box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-.large-rule { background: linear-gradient(#fff, #eee); }
+h1{ font-size:48px; margin:50px;}
+.content { margin: 0 auto; }
+.section { padding:20px; border-bottom:1px solid #ddd; }
+.img-large { max-height:200px; max-width:200px ; }
