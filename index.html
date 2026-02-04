@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lanzarote como modelo de turismo sostenible: territorio volcánico y diseño responsable." />
+  <title>Lanzarote · Turismo consciente</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-gray-100 text-gray-800 leading-relaxed">
+
+  <!-- NAVEGACIÓN -->
+  <header class="bg-gray-700 text-white">
+    <nav class="max-w-6xl mx-auto px-4">
+      <ul class="flex justify-between">
+        <li>
+          <button data-target="inicio" class="px-4 py-3 hover:bg-gray-900">
+            Home
+          </button>
+        </li>
+        <div class="flex">
+          <li>
+            <button data-target="territorio" class="px-4 py-3 hover:bg-gray-900">
+              Territorio
+            </button>
+          </li>
+          <li>
+            <button data-target="sostenibilidad" class="px-4 py-3 hover:bg-gray-900">
+              Sostenibilidad
+            </button>
+          </li>
+          <li>
+            <button data-target="visita" class="px-4 py-3 hover:bg-gray-900">
+              Visita consciente
+            </button>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4">
+
+    <!-- INICIO -->
+    <section id="inicio" class="bg-white p-12 mt-10 rounded-2xl shadow-lg">
+      <h1 class="text-4xl font-bold mb-6 text-center">
+        Lanzarote, una isla con límites
+      </h1>
+      <p class="text-gray-600 text-xl text-center max-w-3xl mx-auto">
+        Lanzarote no es un destino que se consuma, sino un territorio que se comprende.
+        Su paisaje volcánico condiciona la forma de vivir y viajar.
+      </p>
+    </section>
+
+    <!-- TERRITORIO -->
+    <section id="territorio" class="mt-20">
+      <h2 class="text-2xl font-semibold mb-4">Un territorio modelado por la naturaleza</h2>
+      <p class="text-gray-600 mb-4">
+        El origen volcánico de la isla define su identidad.
+        El suelo joven y frágil ha obligado a una convivencia respetuosa
+        entre el ser humano y el entorno.
+      </p>
+      <p class="text-gray-600">
+        Agricultura, arquitectura y turismo responden a un equilibrio
+        marcado por la escasez de recursos.
+      </p>
+    </section>
+
+    <!-- SOSTENIBILIDAD -->
+    <section id="sostenibilidad" class="mt-20 grid md:grid-cols-2 gap-10">
+      <div class="bg-white p-8 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-3">Turismo con límites</h3>
+        <p class="text-gray-600">
+          El crecimiento turístico ha estado condicionado por normas ambientales
+          que priorizan la integración paisajística y el respeto al territorio.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-3">Diseño responsable</h3>
+        <p class="text-gray-600">
+          Lanzarote demuestra que es posible desarrollar turismo
+          sin comprometer los valores naturales de la isla.
+        </p>
+      </div>
+    </section>
+
+    <!-- IMÁGENES -->
+    <section class="mt-20">
+      <h2 class="text-2xl font-semibold mb-6">Paisaje y conciencia</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <img src="jameos.webp" alt="Jameos del Agua" loading="lazy" class="rounded-xl shadow">
+        <img src="miradorrio.webp" alt="Mirador del Río" loading="lazy" class="rounded-xl shadow">
+        <img src="timanfaya.webp" alt="Parque Nacional de Timanfaya" loading="lazy" class="rounded-xl shadow">
+      </div>
+    </section>
+
+    <!-- VISITA -->
+    <section id="visita" class="mt-20 bg-white p-10 rounded-2xl shadow">
+      <h2 class="text-2xl font-semibold mb-4">El papel del visitante</h2>
+      <p class="text-gray-600 mb-4">
+        Viajar a Lanzarote implica responsabilidad.
+        Cada acción cuenta en un ecosistema limitado.
+      </p>
+      <p class="text-gray-600">
+        El turismo consciente garantiza la conservación del territorio.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 mt-20 mb-6">
+    Diseño digital responsable para un turismo responsable.
+  </footer>
+
+  <!-- JS externo -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
